@@ -6,7 +6,7 @@
 
 ## O que é
 
-O cofre é um site com ferramentas simples para ajudar a entender a segurança das senhas. Ele verifica se tem vazamentos e estima sua força.
+O cofre é um site com ferramentas simples para ajudar a entender a segurança das senhas. Ele verifica se tem vazamentos e estima sua força. Também possui um gerador de senhas aleatórias, que permite escolher o tamanho da senha.
 
 ## Ferramentas
 
