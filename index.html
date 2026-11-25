@@ -6,6 +6,7 @@
   <title>Cofre: kit de segurança</title>
   <link rel="stylesheet" href="style.css">
 </head>
+<script src="gerador.js"></script>
 <body>
   <header>
     <p class="etiqueta">kit de segurança digital</p>
@@ -38,5 +39,14 @@
   <footer>
     <p>Cofre · projeto da disciplina Introdução à Ciência da Computação, Prof. Mario Rebello, 2026/2</p>
   </footer>
+  <section>
+    <h2>Gerador de senhas</h2>
+    <label for="tamanho">Tamanho da senha:</label>
+    <input type="number" id="tamanho" min="4" max="32" value="12">
+
+    <button onclick="gerarSenha()">Gerar senha</button>
+
+    <p id="senhaGerada"></p>
+</section>
 </body>
 </html>
